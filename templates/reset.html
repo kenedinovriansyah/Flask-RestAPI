@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+            tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        span {
+            font-weight: bold;
+            margin-right: 1%;
+        }
+        #caption {
+            margin-top: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>
+            Save your data well don't let others know
+        </h3>
+    </div>
+    <table>
+        <tr>
+          <th>Your data information</th>
+        </tr>
+        <tr>
+            <td>
+                <span>Username :</span>
+                {{username}}
+            </td>
+        </tr>
+        <tr>
+          <td>
+              <span>Email :</span>
+              {{email}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span>Answer 1 :</span>
+              {{answersv1}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span>Answer 2 :</span>
+                {{answersv2}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span>Password :</span>
+              {{password}}
+            </td>
+        </tr>
+      </table>
+      <div id='caption'>
+          <caption>Thank you from Lymad</caption>
+      </div>
+</body>
+</html>
